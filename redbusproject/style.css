@@ -1,0 +1,730 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+/* .border {
+    /* border: 2px solid blue; */
+
+
+.pipe {
+    color: gray;
+    margin: 0% 1%;
+
+
+}
+
+.navbar {
+    height: 10vh;
+    width: 10 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logoandoptions {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1px;
+}
+
+.busTicketConatiner {
+    /* border: 0.2px green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    padding: 6px;
+}
+
+.busTicketConatiner:hover {
+    background-color: black;
+    border-radius: 1vh;
+}
+
+.activeBox {
+    /* border: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+
+    padding: 1px;
+    border-radius: 1vh;
+    justify-content: center;
+    padding: 5.5px;
+    /* color: white; */
+    background-color: rgb(219, 37, 37);
+}
+
+/* .activepic{
+    position: relative;
+   left: 5%;
+    top: 5px;
+} */
+.bustickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    padding: 1px;
+    border-radius: 1vh;
+
+    padding: 10px;
+    color: white;
+    background-color: rgb(219, 37, 37);
+}
+
+.accountAndLogin {
+    height: 95%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(82, 81, 81);
+    font-size: 0.8rem;
+}
+
+.logo-blue:hover {
+    color: rgb(18, 18, 18);
+}
+
+
+.helpContainer,
+.accountContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 50%;
+}
+
+.main-text {
+    /* border: 0.2px black; */
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+
+}
+
+.main-region {
+    background-color: gray;
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://st.redbus.in/Images/HomeIndia/HeroImageV2_C.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black; */
+
+    flex-direction: column;
+}
+
+
+
+
+.first:hover {
+    background-color: rgb(247, 247, 247);
+
+}
+
+.second:hover {
+    background-color: rgb(247, 247, 247);
+
+}
+
+.third:hover {
+    background-color: rgb(247, 247, 247);
+
+}
+
+.main-option {
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    position: relative;
+    bottom: 9%;
+}
+
+.main-option-boxes {
+    height: 80%;
+    width: 16%;
+    color: rgb(75, 73, 73);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+
+    font-size: 0.7rem;
+    padding-left: 3%;
+}
+
+.text-option-main {
+    /* border: 2px solid black; */
+    width: 55%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+.first {
+    border-bottom-left-radius: 0.9rem;
+    border-top-left-radius: 0.9rem;
+    color: rgb(133, 132, 132);
+
+}
+
+.f {
+    color: black;
+}
+
+.t {
+    color: black;
+}
+
+.d {
+    color: black;
+}
+
+.second {
+    border-left: 0.8px solid #d5d2d2;
+    border-right: 0.8px solid #d5d2d2;
+    color: rgb(133, 132, 132);
+
+}
+
+.third {
+    color: rgb(133, 132, 132);
+}
+
+.fourth {
+    border-top-right-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    background-color: #d84e55;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 900;
+
+}
+
+
+.arrow-sign {
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(141, 139, 139);
+    position: absolute;
+    right: 64.8%;
+    background-color: white;
+}
+
+
+.trending-offers {
+    height: 40vh;
+    width: 70%;
+    /* border: solid black; */
+    position: relative;
+    left: 15.5%;
+    bottom: 5.5vh;
+    border-radius: 3vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textAndShowAllOption {
+
+    height: 40vh;
+    width: 70%;
+    /* border: solid black; */
+    position: relative;
+    left: 5.5%;
+    /* bottom: 5.5vh; */
+    border-radius: 3vh;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.to {
+    font-size: 180%;
+    position: relative;
+    right: 40%;
+}
+
+.trendingPics {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.viewall {
+    border-radius: 5vh;
+    border: 0.9px solid rgb(179, 176, 176);
+    width: 20%;
+    height: 40%;
+    background-color: white;
+    color: rgb(1, 1, 189);
+    font-weight: 800;
+    font-size: 100%;
+    position: relative;
+    left: 27.5%;
+    /* top: 30%; */
+}
+
+.viewall:hover {
+    background-color: rgb(232, 229, 229);
+}
+
+.refreel {
+    height: 10vh;
+    width: 70%;
+    background-image: url("./Assets/img4.png");
+    background-size: cover;
+    margin-left: 15.5%;
+}
+
+.bus-rentalSection {
+    height: 80vh;
+    width: 70%;
+    /* border: 2px solid black; */
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10.4%;
+    margin: 5%;
+}
+
+.busRentalText {
+    height: 75vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    font-weight: 900;
+    font-size: 190%;
+
+}
+
+.busRentalPic {
+    height: 75vh;
+    width: 70%;
+    /* border: 2px solid black; */
+
+
+}
+
+.pic {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.text {
+    font-size: 30px;
+
+}
+
+.enjoyaappic {
+    position: relative;
+    left: 15.5%;
+}
+
+.button {
+    /* border:2px solid red; */
+    height: 9%;
+    width: 25%;
+    position: absolute;
+    top: 90%;
+    font-size: 50%;
+    font-weight: 900;
+    font-family: Arial, Helvetica;
+    border-radius: 2vh;
+    background-color: rgb(216, 78, 85);
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.i {
+    /* border: 0.2px solid black; */
+    position: absolute;
+    top: 90.5%;
+    left: 20.9%;
+    width: 20%;
+    color: white;
+}
+
+.busTicketConatiner:hover {
+    background-color: pink;
+    border-radius: 1vh;
+}
+
+
+.Viewall {
+    border-radius: 5vh;
+    border: 0.9px solid rgb(179, 176, 176);
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    color: rgb(1, 1, 189);
+    font-weight: 500;
+    font-size: 100%;
+
+}
+
+
+
+
+
+.busoperator {
+    display: flex;
+    justify-content: start;
+
+
+}
+
+.flags {
+    height: 40vh;
+    width: 70%;
+    border: solid black;
+    position: relative;
+    left: 15.5%;
+    border-radius: 3vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.text {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50%;
+
+}
+
+.trrendingpics {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.starpic {
+    /* border: 0.2px solid black; */
+    height: 53vh;
+    width: 69vw;
+    position: relative;
+    left: 15.5%;
+    top: 100px;
+}
+
+.PARTNEREDWITH {
+    /* border: 0.2px solid black; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+    top: 180px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(98, 97, 97);
+
+
+}
+
+.pviewall {
+    border-radius: 5vh;
+    border: 0.9px solid rgb(179, 176, 176);
+    width: 9vw;
+    height: 5vh;
+    background-color: white;
+    color: rgb(56, 55, 55);
+    font-weight: 40;
+    font-size: 60%;
+    position: relative;
+    left: 85.5%;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.partneredtext {
+    position: relative;
+    top: 20%;
+    /* border: 0.2px solid black; */
+}
+
+.texta {
+    font-size: 70%;
+    font-weight: 300;
+    color: rgb(56, 55, 55);
+}
+
+.Privatebus {
+    /* border: 0.2px solid black; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+    top: 280px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(59, 57, 57);
+}
+
+.textb {
+    font-size: 70%;
+    font-weight: 300;
+
+}
+
+.privatebusviewall {
+    border-radius: 2vh;
+    border: 0.9px solid rgb(179, 176, 176);
+    width: 9vw;
+    height: 5vh;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 150%;
+    position: relative;
+    left: 75.5%;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(56, 55, 55);
+
+
+
+
+}
+
+.classes {
+    /* border: 0.2px solid black; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+    top: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(98, 97, 97);
+
+
+
+}
+
+
+
+.GLOBALPRESENCE {
+    /* border: 0.2px solid black; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+    top: 120px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(36, 35, 35);
+}
+
+.nameclass {
+    /* border: 0.2px solid blue; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    bottom: 10px;
+    left: 1%;
+}
+
+.nameimg {
+    /* border: 0.2px solid blue; */
+    position: relative;
+    bottom: 60%;
+    right: 37px;
+
+}
+
+.bookbust {
+    /* border: 0.2px solid black; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    top: 200%;
+    left: 220px;
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(34, 34, 34);
+    position: relative;
+    top: 300px;
+
+}
+
+/* .textbook {
+    /* border: 0.2px solid rgb(0, 0, 0); */
+
+
+
+
+.textwrite {
+    font-size: 43%;
+    font-family: sans-serif;
+    position: relative;
+
+    top: 55px;
+    /* border: 0.2px solid red; */
+    height: 30vh;
+    width: 75vw;
+    color: rgb(125, 124, 124);
+
+}
+
+.reddeal {
+    /* border: 0.2px solid red; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    top: 450px;
+    left: 220px;
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(34, 34, 34);
+
+
+
+}
+
+/* .reddealtext {
+    /* border: 0.2px solid rgb(111, 0, 255); */
+
+
+
+.textwritea {
+    font-size: 43%;
+    font-family: sans-serif;
+    position: relative;
+
+    top: 55px;
+    /* border: 0.2px solid red;  */
+    height: 30vh;
+    width: 75vw;
+    color: rgb(114, 113, 113);
+
+}
+
+.img12 {
+    border: 0.2px solid rgb(139, 139, 139);
+    position: relative;
+    left: 13%;
+    top: 400px;
+    height: 22vh;
+    width: 75vw;
+    border-radius: 2vh;
+}
+
+.tctext {
+    /* border: 0.2px solid black;  */
+    position: relative;
+    top: 900%;
+
+}
+
+.tc {
+
+    /* border: 0.2px solid black ; */
+    /* border: 0.2px solid red; */
+    height: 35vh;
+    width: 70vw;
+    position: relative;
+    top: 500px;
+    left: 195px;
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(34, 34, 34);
+
+
+}
+
+.img16 {
+    /* border: 0.2px solid rgb(139, 139, 139); */
+    position: relative;
+    left: 13%;
+    top: 300px;
+    height: 60vh;
+    width: 75vw;
+
+}
+
+.img14 {
+    /* border: 0.2px solid rgb(139, 139, 139); */
+    position: relative;
+    left: 13%;
+    top: 300px;
+    height: 45vh;
+    width: 75vw;
+
+}
+
+.img17 {
+    /* border:  0.2px solid red ; */
+    position: relative;
+    top: 300px;
+    height: 40vh;
+    width: 100vw;
+}
+
+.img18 {
+    /* border:  0.2px solid red ; */
+    position: relative;
+    top: 300px;
+    height: 60vh;
+    width: 100vw;
+}
